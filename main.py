@@ -31,12 +31,12 @@ def bot_message(message):
 
     elif message.text == 'Dress code 🕺':
         bot.send_photo(message.chat.id, open('second.png', 'rb'))
-        bot.send_message(message.chat.id, 'Жақсы көңіл-күймен және жүзіңізге күлкі ала келіңіз')
+        bot.send_message(message.chat.id, 'Жақсы көңіл-күймен және жүзіңізге күлкі ала келіңіз🥰✨')
 
 
     elif message.text == 'Time ⏰':
         bot.send_photo(message.chat.id, open('8march.png', 'rb'))
-        bot.send_message(message.chat.id, 'Сіздерді 10.08.23 күні сағат 18:00 де болатын кешіміздің қадірлі қонағы болуға шақырамыз')
+        bot.send_message(message.chat.id, 'Сіздерді 10.08.23 күні сағат 18:00 де болатын кешіміздің қадірлі қонағы болуға шақырамыз💐🤍')
 
 
     elif message.text == 'Congratulations 🎊':
